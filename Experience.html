@@ -15,21 +15,26 @@
 <div><a href="fin.html">Commencer</a></div>
    <div class="scene"><a-scene>
         <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="20" color="green"></a-plane>
+        <!-- Arbre -->
         <a-box position ="4 2 6" height="4" color="brown"></a-box>
         <a-sphere position ="4 5 6" color="forestgreen" scale="2 2 2"></a-sphere>
+         <!-- Buisson -->
         <a-sphere position ="-6 0 -6" color="forestgreen" scale="2 2 2"></a-sphere>
         <a-sphere position ="-7 0 -6" color="forestgreen" scale="2 1 3"></a-sphere>
+         <!-- Nuage 1 -->
         <a-box position="5 10 2" scale="6 2 4"color="white"></a-box>
         <a-box position="7 12 2.5" scale="6 2 4"color="white"></a-box>
+         <!-- Nuage 2 -->
         <a-box rotation="0 90 0" position="-6 10 -5" scale="6 2 4"color="white"></a-box>
         <a-box rotation="0 90 0"position="-4.5 12 -7" scale="6 2 4"color="white"></a-box>
+         <!-- Ciel -->
         <a-sky color="Skyblue"></a-sky>
         <a-assets>
             <a-asset-item id="cat-obj" src="/Cat/12221_Cat_v1_l3.obj"></a-asset-item>
             <a-asset-item id="cat-mtl" src="/Cat/12221_Cat_v1_l3.mtl"></a-asset-item>
           </a-assets>
         
-          <a-entity obj-model="obj: #cat-obj; mtl: #cat-mtl" scale="0.02 0.02 0.02" rotation="-90 45 0" position="-9 0 -9"></a-entity>
+          <a-obj obj-model="obj: #cat-obj; mtl: #cat-mtl" scale="0.02 0.02 0.02" rotation="-90 45 0" position="-9 0 -9"></a-obj>
         
     </a-scene></div>
 </body>
