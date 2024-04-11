@@ -4,4 +4,10 @@ color: white;
 height: 200px;
 width: 200px;
 right: 0%;
+z-index: 0;
+position: relative;
+}
+.scene{
+z-index: 0;
+position: relative;
 }
