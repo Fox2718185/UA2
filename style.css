@@ -1,16 +1,21 @@
 h1{
 text-align: center;
 font-size: 50;
-background-color: black;
-color: white;
+font-family: 'Times New Roman', Times, serif;
 margin: 0%;
 }
 
 .start{
-text-align: center;
 font-size: 50;
+font-family: 'Times New Roman', Times, serif;
 }
 
 p{
-text-align: center;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+}
+body {
+background-image: url('https://static.vecteezy.com/system/resources/previews/004/118/267/original/happy-granny-with-her-cat-grandmother-wearing-glasses-cute-granny-holding-purse-and-cat-scene-flat-isolated-designed-illustration-vector.jpg');
+background-size: contain;
+background-size: cover;
 }
