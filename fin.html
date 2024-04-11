@@ -13,11 +13,11 @@
 <h1>Victoire!</h1>
         <a-scene arjs>
             <a-assets>
-                <a-asset-item id="cookie-obj" src="/cookies-on-a-plate/source/Coenkies_V1.fbx"></a-asset-item>
-                <a-asset-item id="cookie-mtl" src="/cookies-on-a-plate/textures/Cookie_Plate_V1_Renee_lambert1_Normal.png"></a-asset-item>
+                <a-asset-item id="#cookie-obj" src="/cookies-on-a-plate/source/Coenkies_V1.fbx"></a-asset-item>
+                <a-asset-item id="#cookie-mtl" src="/cookies-on-a-plate/textures/Cookie_Plate_V1_Renee_lambert1_Normal.png"></a-asset-item>
               </a-assets>
             
-              <a-obj obj-model="obj: #cookie-obj; mtl: #cookie-mtl"></a-obj>
+              <a-obj-model src="#cookie-obj" mtl="#cookie-mtl"></a-obj-model>
         <a-marker-camera preset='hiro'></a-marker-camera>
     </a-scene>
 </body>
