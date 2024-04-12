@@ -33,9 +33,10 @@
             <a-asset-item id="cat-mtl" src="https://Fox2718185.github.io/UA2/Cat/12221_Cat_v1_l3.mtl"></a-asset-item>
           </a-assets>
           
-          <a-link href="fin.html">
-              <a-obj-model class="cat" src="#cat-obj" mtl="#cat-mtl" scale="0.02 0.02 0.02" rotation="-90 45 0" position="-9 0 -9"></a-obj-model>
-          </a-link>
+          <a-entity position="-9 0 -9">
+            <a-obj-model class="cat" src="#cat-obj" mtl="#cat-mtl" scale="0.02 0.02 0.02" rotation="-90 45 0"></a-obj-model>
+            <a-link href="fin.html"></a-link>
+        </a-entity>
           
           <a-camera>
             <a-cursor
