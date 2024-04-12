@@ -1,13 +1,13 @@
 .quest{
-background-color: black;
-color: white;
-height: 50px;
-width: 200px;
-right: 0%;
-margin-top: 15%;
-z-index: 1;
-position: relative;
-padding:5px;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Start off-screen */
+    width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    padding: 20px;
+
 }
 .scene{
 z-index: 0;
