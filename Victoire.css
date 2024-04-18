@@ -2,11 +2,13 @@ h1{
 text-align: center;
 z-index: 1;
 position: relative;
+color: white;
 }
 
 h3{
 z-index: 1;
 position: relative;
+color: white;
 }
 
 .scene{
