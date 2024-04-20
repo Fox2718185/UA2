@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cookie plate
+* source:	https://sketchfab.com/3d-models/cookie-plate-ee95d985f3fe4304b8ece1882ce3e34f
+* author:	wetgenes (https://sketchfab.com/wetgenes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cookie plate" (https://sketchfab.com/3d-models/cookie-plate-ee95d985f3fe4304b8ece1882ce3e34f) by wetgenes (https://sketchfab.com/wetgenes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
